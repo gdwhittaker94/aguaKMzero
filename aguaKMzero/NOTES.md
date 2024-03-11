@@ -12,7 +12,7 @@ _Mum Explanation_: This program shows the positive environmental impact you've h
 
 - Impact Display: Show calculated data in three separate boxes:
   * Number of 33 ml bottles saved (2 bottles per refill).
-  * Kg of plastic saved (use an approximation, e.g., 0.012 kg per bottle, with a source for this estimate).
+  * Kg of plastic saved (use an approximation, e.g., 0.012 kg per bottle, with a [source](t.ly/rNpcv) for this estimate).
   * Kg of carbon saved (use an approximation, e.g., 0.08 kg CO2 per bottle, with a source for this estimate).
 
 - Count Up Animation: Animated counting to the calculated numbers upon calculation.
@@ -43,5 +43,3 @@ JS console.log func.
 function log(input) {
 		console.log(input);
 	}
-
-  npm run dev -> see live output

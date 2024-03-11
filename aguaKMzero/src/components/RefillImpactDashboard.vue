@@ -28,7 +28,7 @@ export default {
   },
   methods: {
     calculateImpact() {
-      this.bottlesSaved = this.waterRefills * 20; // Assuming each refill saves 20 bottles
+      this.bottlesSaved = this.waterRefills * 2; // Assuming each refill saves 20 bottles
       this.plasticSaved = this.bottlesSaved * 0.5; // Assuming each bottle is 0.5 kg
       this.co2Saved = this.bottlesSaved * 0.2; // Assuming each bottle produces 0.2 kg of CO2
       this.animateNumbers();
